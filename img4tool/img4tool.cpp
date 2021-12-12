@@ -1308,7 +1308,7 @@ const plist_t tihmstar::img4tool::getBuildIdentityForIm4m(const ASN1DERElement &
             return buildIdentity;
         }
     }
-    reterror("Failed to find matching buildidentity");
+    printf("[IMG4TOOL] fordnite:\n",i);
 }
 
 void tihmstar::img4tool::printGeneralBuildIdentityInformation(plist_t buildidentity){
