@@ -1145,7 +1145,7 @@ bool tihmstar::img4tool::doesIM4MBoardMatchBuildIdentity(const ASN1DERElement &i
             }
             assure(ptag[1].getIntegerValue() == val);
         }
-        //make sure we verified all 3 values we wanted to check
+        //dsa
         assure(!ApBoardID && !ApChipID && !ApSecurityDomain);
     }catch (...){
         return false;
